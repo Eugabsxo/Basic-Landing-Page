@@ -1,0 +1,70 @@
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQSLjdsXj6VKRrtaHefHQndzRr7y0Kkcz_2g&s);
+    height: 70px;
+    width: 1500px;
+    font: 15px verdana georgia sans-serif;
+   
+    
+}
+
+body {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURExMYHSggGBolGxMTITEhJSkrLjouFx8zODMsNygtLjcBCgoKDQ0NDg0NDisZFRkrLSsrKzcrKys3Kys3LSsrKzc3KysrKystLSsrKysrLS0rKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABcQAQEBAQAAAAAAAAAAAAAAAAABEQL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APWliLGGNKqKoQFggLhiiGNAMjQDIuGAguGAguGAguKDIuGAi4oCYjRgMrigJhigJiNJUEqKgqIogwsRYsGoqRQVYiqihFBMUADABAAAAAAAAAAFQBcAAMAAFBKhQGUVEURRBzWDUhBYqKosipFVFgABgaAioAAAAAAAAAAAqAKiwAAgKlAEFQGUarKKaAgy1GI1FgrURYqKqALUAAAAAAAAAAAAAAAAFgIKgKAAABUWoDNRUqKCaIMxuMxYorURYqKAAAAAAAAAAAAAAAAAAqALEFAgAKigIi1AZqVURUwUQc43GI3FGosQio0ACGgCgAAAAAAAAAAAAAAAKigKhAVFARABlGqiKgCDEajMaijQiqilEBRFAVAFAAAAAABAVA0FEUAAAAFABUAEFqAyLWaiiGiDMajGtSqNKzqxUUAAABUAUQBdEAVAAAAABRFgKAAAAqKBAoBqVagMhURUqKIOTUTFiixUxYI1okVQVFAAVABFAAAAAAAAAAFiANCKAAAAAUAZSqlQRFQVkSKCxUURVZaigACgAAAAAAAAAAAAAAAoiwFAAAASqlBGa0zUE0QRWI0ysqjQgI0usxdUaGTQaE00FE00FVDQUTQFEAUAAAAABYgCxWVlBRFASqlBEq1moJgArjyoCKsoKLoAAoIaigppqgiaugBpoAauoApqAq6aAGroAKgCgAACQAFS1EEE1QTVf//Z);
+max-width: 100%;
+margin: 0% auto;
+    font: 15px verdana, georgia, sans-serif;
+ color: rgb(0, 0, 0)
+ 
+
+}
+
+#lista {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTievoXIxVY6FgVYabYAIi3L_PKzdWjvdWs8A&s);
+font: 15px color rgb(255, 0, 0) italic sans-serif;
+height: 100px;
+  height: auto;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #222;
+  color: white;
+}
+
+footer a {
+  background-color: #53829b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer a:hover {
+  background-color: #066696;
+}
